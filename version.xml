@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE version SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
+
+<!--
+  * plugins/themes/ufrn-theme/version.xml
+  *
+  * Authors: Anderson Queiroz and Monica Paiva
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Plugin version information.
+  -->
+
+<version>
+	<!-- The application should match the theme folder to ensure it is unique -->
+	<application>ufrn-theme</application>
+	<type>plugins.themes</type>
+	<release>0.9.0.6</release>
+	<date>2018-08-3</date>
+	<!-- This should always be 0 -->
+	<lazy-load>0</lazy-load>
+	<class>UfrnThemePlugin</class>
+</version>

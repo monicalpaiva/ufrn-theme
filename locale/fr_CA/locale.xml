@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/themes/ufrn-theme/locale/pt_BR/locale.xml
+  *
+  * Distributed under the GNU GPL v3.
+  *
+  * Localization strings
+  -->
+
+<locale name="fr_CA" full_name="Français (Canada)">
+    <message key="plugins.themes.ufrn-theme.name">Thème UFRN</message>
+    <message key="plugins.themes.ufrn-theme.description">Thème développé pour l’adaptation visuelle du Journal Portal de l’Université fédérale de Rio Grande do Norte.</message>    
+
+    <message key="plugins.ufrn-theme.recentSubmissions">Soumissions récentes</message>
+
+    <message key="plugins.ufrn-theme.regularJournals.name">Magazines A - Z</message>
+    <message key="plugins.ufrn-theme.regularJournals.description">Entrez les chemins des journaux réguliers, séparés par des virgules</message>
+    <message key="plugins.ufrn-theme.incubatedJournals.name">Magazines Incubés</message>
+    <message key="plugins.ufrn-theme.incubatedJournals.description">Entrez les chemins des journaux incubés, séparés par des virgules</message>
+    <message key="plugins.ufrn-theme.terminatedJournals.name">Magazines Fermés</message>
+    <message key="plugins.ufrn-theme.terminatedJournals.description">Entrez les chemins des journaux fermés, séparés par des virgules</message>
+
+    <message key="plugins.ufrn-theme.search.placeholder">Recherche</message>
+</locale>

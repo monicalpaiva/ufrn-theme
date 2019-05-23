@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/themes/ufrn-theme/locale/en_US/locale.xml
+  *
+  * Distributed under the GNU GPL v3.
+  *
+  * Localization strings
+  -->
+
+<locale name="en_US" full_name="U.S. English">
+    <message key="plugins.themes.ufrn-theme.name">UFRN theme</message>    
+    <message key="plugins.themes.ufrn-theme.description">Theme developed for the visual suitability of the Portal of Journals from Universidade Federal do Rio Grande do Norte.</message>    
+
+    <message key="plugins.ufrn-theme.recentSubmissions">Recent Submissions</message>
+
+    <message key="plugins.ufrn-theme.regularJournals.name">Journals A - Z</message>
+    <message key="plugins.ufrn-theme.regularJournals.description">Enter the regular journals paths, separated by commas.</message>
+    <message key="plugins.ufrn-theme.incubatedJournals.name">Incubated Journals</message>
+    <message key="plugins.ufrn-theme.incubatedJournals.description">Enter the incubated journals paths, separated by commas.</message>
+    <message key="plugins.ufrn-theme.terminatedJournals.name">Terminated Journals</message>
+    <message key="plugins.ufrn-theme.terminatedJournals.description">Enter the terminated journals paths, separated by commas.</message>
+
+    <message key="plugins.ufrn-theme.search.placeholder">Search</message>
+</locale>

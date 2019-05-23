@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/themes/ufrn-theme/locale/pt_BR/locale.xml
+  *
+  * Distributed under the GNU GPL v3.
+  *
+  * Localization strings
+  -->
+
+<locale name="pt_BR" full_name="Português (Brasil)">
+    <message key="plugins.themes.ufrn-theme.name">Tema da UFRN</message>
+    <message key="plugins.themes.ufrn-theme.description">Tema desenvolvido para adequação visual do Portal de Periódicos da Universidade Federal do Rio Grande do Norte.</message>    
+
+    <message key="plugins.ufrn-theme.recentSubmissions">Publicações recentes</message>
+
+    <message key="plugins.ufrn-theme.regularJournals.name">Revistas de A a Z</message>
+    <message key="plugins.ufrn-theme.regularJournals.description">Digite os caminhos das revistas regulares, separados por vírgulas</message>
+    <message key="plugins.ufrn-theme.incubatedJournals.name">Revistas Incubadas</message>
+    <message key="plugins.ufrn-theme.incubatedJournals.description">Digite os caminhos das revistas incubadas, separados por vírgulas</message>
+    <message key="plugins.ufrn-theme.terminatedJournals.name">Revistas Encerradas</message>
+    <message key="plugins.ufrn-theme.terminatedJournals.description">Digite os caminhos das revistas encerradas, separados por vírgulas</message>
+
+    <message key="plugins.ufrn-theme.search.placeholder">Busca</message>
+</locale>
