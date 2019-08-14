@@ -13,11 +13,8 @@
  * @brief Operations for retrieving and modifying Issue objects.
  */
 import ('classes.issue.IssueDAO');
-
 class IssueUfrnDAO extends IssueDAO {
-
     public function getLatestIssues() {
-
 		$issues = array();
 		$issueList = array();
 		$volLabel = __('issue.vol');
@@ -34,7 +31,6 @@ class IssueUfrnDAO extends IssueDAO {
 			$result->MoveNext();
 		}
 		$result->Close();
-
 		foreach($issues as $issueId => $issue){
 			
 			$journal = $journalDao->getById($issue->getJournalId());
@@ -66,5 +62,4 @@ class IssueUfrnDAO extends IssueDAO {
 		}
 		return $issueList;
 	}
-
 }

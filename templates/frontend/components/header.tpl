@@ -30,14 +30,6 @@
 		<a href="#pkp_content_footer">{translate key="navigation.skip.footer"}</a>
 	</div>
 	<div class="pkp_structure_page">
-		<div id="barra-brasil" style="height: 23px; width: 100%; opacity: 0.1;">
-			<ul id="menu-barra-temp" style="list-style:none;">
-				<li style="display:inline; padding-right:10px; margin-right:10px;">
-				<a href="http://brasil.gov.br" target="_blank" style="font-family:sans,sans-serif; text-decoration:none; color: transparent;">
-					Portal do Governo Brasileiro</a>
-				</li>
-			</ul>
-		</div>
 		{* Header *}
 		<header class="pkp_structure_head" id="headerNavigationContainer" role="banner">
 			<div class="pkp_head_wrapper">

@@ -10,7 +10,7 @@
   -->
 
 <locale name="fr_CA" full_name="Français (Canada)">
-    <message key="plugins.themes.ufrn-theme.name">Thème UFRN</message>
+    <message key="plugins.themes.ufrn-theme1.name">Thème UFRN</message>
     <message key="plugins.themes.ufrn-theme.description">Thème développé pour l’adaptation visuelle du Journal Portal de l’Université fédérale de Rio Grande do Norte.</message>    
 
     <message key="plugins.ufrn-theme.recentSubmissions">Soumissions récentes</message>

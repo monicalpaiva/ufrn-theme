@@ -30,37 +30,27 @@
 		<div class="container">
 			<div class="box-infos">				
 				<div class="infos-endereco col-2">
-					<a href="http://sisbi.ufrn.br/bczm/">
-						<img alt="site bczm" src="{$baseUrl}{$defaultBCZM}{$field}" target="_blank">
-					</a>
+					
 				</div>				
 				<div class="infos-endereco col-4">
-					<div class="box-title">Biblioteca Central Zila Mamede (BCZM)</div>
+					<div class="box-title">Título</div>
 					<address>
 						<ul class="list-unstyled">
-							<li>Campus Universitário Lagoa Nova</li>
-							<li>CEP 59078-970</li>
-							<li>Caixa postal 1524</li>
-							<li>Natal/RN - Brasil</li>
+							<li>local/li>
+							<li>CEP</li>
+							<li>Caixa postal</li>
+							<li>Brasil</li>
 						</ul>
 					</address>
 				</div>
 				<div class="infos-endereco col-3">
 					<div class="box-title">Suporte tecnico do portal</div>
 					<ul class="list-unstyled">
-						<li><i class="fa fa-phone"></i>+55 (84) 3342-2260 - R-232</li>
-						<li><a target="_blank" href="mailto:periodicos@bczm.ufrn.br" style="color:#fff;">
-							<i class="fa fa-envelope-o"></i>periodicos@bczm.ufrn.br</a></li>
+						<li><i class="fa fa-phone"></i>telefone</li>
+						<li><a target="_blank" href="mailto:mail@mail.com.br" style="color:#fff;">
+							<i class="fa fa-envelope-o"></i>mail@mail.com.br</a></li>
 					</ul>
-					</br>
-					<img src="{$baseUrl}{$defaultCC}{$field}" alt="Creatives CC logo" style="max-height: 30px;">
 				</div>
-					<!--Ibict & cariniana-->
-					<div class="cariniana col-3 pl-1">
-					<img src="{$baseUrl}{$defaultCariniana}{$field}" alt="cariniana logo" style="max-height: 78px;">
-					</br>
-					<img src="{$baseUrl}{$defaultIbict}{$field}" alt="Ibict logo" style="max-height: 25px;">
-					</div>
 					<div class="infos-contato col-2 p-1">
 					<div class="pkp_brand_footer" role="complementary">
 						<a href="{url page="about" op="aboutThisPublishingSystem"}">

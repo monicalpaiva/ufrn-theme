@@ -10,7 +10,7 @@
   -->
 
 <locale name="es_ES" full_name="Español (España)">
-    <message key="plugins.themes.ufrn-theme.name">Tema de la UFRN</message>
+    <message key="plugins.themes.ufrn-theme1.name">Tema de la UFRN</message>
     <message key="plugins.themes.ufrn-theme.description">Tema desarrollado para adecuación visual del Portal de Periódicos de la Universidad Federal de Rio Grande do Norte.</message>    
 
     <message key="plugins.ufrn-theme.recentSubmissions">Publicaciones recientes</message>
