@@ -58,7 +58,6 @@ class UfrnThemePlugin extends ThemePlugin {
 
 		HookRegistry::register('TemplateManager::display', array($this, 'browseJournals'), HOOK_SEQUENCE_CORE);
 		HookRegistry::register('TemplateManager::display', array($this, 'languagesMenu'), HOOK_SEQUENCE_CORE);			
-		HookRegistry::register('TemplateManager::display', array($this, 'imagensIbictCariniana'), HOOK_SEQUENCE_CORE);	
 	}	
 
 	/**
@@ -132,22 +131,5 @@ class UfrnThemePlugin extends ThemePlugin {
 		$smarty->assign('supportedLocales', $locales);
 		$smarty->assign('defaultFlagsUrl', $defaultFlagsUrl);
 	}
-
-	public function imagensIbictCariniana($hookName, $args){
-		$smarty = $args[0];
-		$template = $args[1];
-
-		$defaultCariniana = "/" . $this->getPluginPath() . "/images/cariniana.png";
-		$defaultIbict = "/" . $this->getPluginPath() . "/images/ibict.png";
-		$defaultCC = "/" . $this->getPluginPath() . "/images/Creatives.png";
-		$defaultBCZM = "/" . $this->getPluginPath() . "/images/BCZM.png";
-
-		$smarty->assign('defaultCariniana', $defaultCariniana);
-		$smarty->assign('defaultIbict', $defaultIbict);
-		$smarty->assign('defaultCC', $defaultCC);
-		$smarty->assign('defaultBCZM', $defaultBCZM);
-		
-	}
 }
-
 ?>
